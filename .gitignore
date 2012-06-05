@@ -1,0 +1,10 @@
+$ cat .gitignore
+*.[oa]
+*~
+# Esto es un comentario
+*.a #no rastreara archivos .a 
+!lib.a	#pero si rastreara lib.a, 
+		#aunque estemos ignorando restos de archivo .a
+/carpeta 	#solo ignora el archivo rais carpeta, no subdirectorios
+o_carpeta #ignora todos los archivos en el subdirectorio o_carpeta
+doc/*.txt #ignora doc/notes.txt, pero no doc/server/arch.txt

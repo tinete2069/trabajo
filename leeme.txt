@@ -1,3 +1,5 @@
+INSTRUCCIONES A SEGUIR
+
 Global setup:
  Set up git
   git config --global user.name "Agustin"
